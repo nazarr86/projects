@@ -1,0 +1,203 @@
+@import"_misc/normalize";
+@import"_misc/variables";
+@import"_misc/mixins";
+
+body {
+	background: #f9f9f9;
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto Regular', Tahoma, sans-serif;
+	font-size: 14px;
+	line-height: 1.42;
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+	display: block;
+}
+
+.container {
+	max-width: 1215px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.header {
+	background: #075190; /* Old browsers */
+background: -moz-linear-gradient(top, #075190 0%, #074d8a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #075190 0%,#074d8a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #075190 0%,#074d8a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#075190', endColorstr='#074d8a',GradientType=0 ); /* IE6-9 */
+
+	@extend %clearfix;
+	height: 35px;
+}
+
+.header__left {
+	float: right;
+	background: url(../image/header__separator.png) right center no-repeat;
+	padding-right: 20px;
+}
+
+.header__right {
+	float: right;
+	margin-right: 20px;
+}
+
+.main-nav__elem {
+	display: inline-block;
+}
+
+.main-nav__link {
+	color: $blue;
+	padding: 0px 13px;
+	line-height: 35px;
+	display: block;
+	height: 35px;
+
+	&:hover {
+		color: $white;
+		background: $lblue;
+	}
+}
+
+.header__right--ib {
+	display: inline-block;
+	line-height: 35px;
+	color: $white;
+	padding: 0 15px;
+	height: 35px;
+
+	&:hover {
+		color: $white;
+		background: $lblue;
+	}
+}
+
+.user {
+	margin-left: 20px;
+}
+
+.user__link, .login__first {
+		color: $white;
+	
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+.user__link {
+	background: url(../image/flag__icon.png) no-repeat left center;
+	padding-left: 27px;
+	padding-top: 4px;
+    padding-bottom: 7px;
+}
+
+.login__text:hover {
+	text-decoration: none;
+}
+
+.content {
+	background: url(../image/background.jpg) no-repeat;
+	background-size: cover;
+	min-height: 1000px;
+}
+
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	max-width: 560px;
+	text-align: center;
+	
+}
+
+.popup-header {
+	margin-bottom: 2px;
+	background: rgba(0, 0, 0, .63);
+}
+
+.popup-content, .popup-footer {
+	background: rgba(0, 0, 0, .63);
+}
+
+
+.popup-header__text {
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding: 23px 0;
+}
+
+.popup-content__facebook {
+	padding-top: 37px;
+}
+
+.popup-content__facebook-img {
+	margin: 0 auto;
+}
+
+.popup-content__text{
+	overflow: hidden;
+	position: relative;
+
+
+	&:before {
+		display: block;                  /* делаем псевдоэлемент блоком для последующего работы с ним, как с простым div'ом */
+    	width:1000px;                    /* устанавливаем ширину линию. Можно использовать произвольную ширину */
+    	content: '';                     /* позволяет вставлять генерируемое содержание в текст страницы, которое первоначально в тексте отсутствует */
+    	position: absolute;              /* абсолютное позиционирование для управления линиями */
+    	background: url(../image/separator.png);   /* бордер псевдо дива, т.е. сама линия */
+    	top:50%;                         /* позиционирование по вертикали */
+    	right: 110px;
+	}
+
+}
+
+.form {
+	padding-left: 22%;
+}
+
+.popup-content__form form input {
+	display: block;
+	margin: 15px auto;
+	width: 280px;
+	line-height: 2;
+}
+
+.popup-content__form form input[type="checkbox"] {
+	display: inline-block;
+	width: 20px;
+}
+
+.popup-content__check {
+	color: $greylight;
+}
+
+.popup-content__form form input[type="submit"] {
+	margin-bottom: 0;
+	width: 150px;
+	background: $lblue;
+}
+
+
+
+
