@@ -1,6 +1,7 @@
 @import"_misc/normalize";
 @import"_misc/variables";
 @import"_misc/mixins";
+@import"_misc/fonts.scss";
 
 body {
 	background: $white;
@@ -37,5 +38,51 @@ img {
 	max-width: 910px;
 	margin: 0 auto;
 	background: $white;
+}
+
+.header-top__contacts {
+	float: left;
+}
+
+.header-top__number {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #5e696d;
+}
+
+.header-top__registration {
+	float: left;
+	background: #1f6787; /* Old browsers */
+	background: -moz-linear-gradient(top, #1f6787 1%, #0c3357 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #1f6787 1%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #1f6787 1%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border-radius: 5px;
+}
+
+.registration__login, .registration__pass {
+	width: 115px;
+	font-size: 11px;
+	font-family: "Lucida Sans", sans-serif;
+	color: #97a2a6;
+}
+
+.registration__enter, .registration__reg {
+	font-size: 11px;
+	background: none;
+	border: none;
+	color: $white;
+	font-family: "Lucida Sans", sans-serif;
+}
+.header-top__navi {
+	float: left;
+}
+
+.header-top {
+	@extend %clearfix;
+	line-height: 26px;
+}
+
+.head-top__img {
+	display: inline-block;
 }
 
