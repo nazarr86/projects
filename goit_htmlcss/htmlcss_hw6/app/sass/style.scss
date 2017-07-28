@@ -40,6 +40,17 @@ img {
 	background: $white;
 }
 
+.header {
+	margin-top: 10px;
+}
+
+.header-top__telephone {
+	background: url("../image/telephone__icon.png") no-repeat left center;
+	padding-left: 27px;
+	padding-right: 15px;
+	margin-left: 8px
+}
+
 .header-top__contacts {
 	float: left;
 }
@@ -48,6 +59,7 @@ img {
 	font-family: Arial, sans-serif;
 	font-size: 18px;
 	color: #5e696d;
+	letter-spacing: 0.5px;
 }
 
 .header-top__registration {
@@ -57,10 +69,17 @@ img {
 	background: -webkit-linear-gradient(top, #1f6787 1%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #1f6787 1%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	border-radius: 5px;
+	margin-top: -2px;
+}
+
+.registration {
+	background: url("../image/user__icon.png") no-repeat left center;
+	padding-left:18px;
+	margin-left: 6px;
 }
 
 .registration__login, .registration__pass {
-	width: 115px;
+	width: 111px;
 	font-size: 11px;
 	font-family: "Lucida Sans", sans-serif;
 	color: #97a2a6;
@@ -73,16 +92,55 @@ img {
 	color: $white;
 	font-family: "Lucida Sans", sans-serif;
 }
+
+.registration__enter {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.registration__reg {
+	padding-left: 0;
+}
+
+.registration__forget {
+	color: $white;
+	font-size: 12px;
+	font-family:"Lucida Sans", sans-serif;
+	text-decoration: none;
+	padding: 0 8px;
+	
+	&:hover {
+		text-decoration: underline;
+		color: #bfbfbf;
+	}
+}
+
+.registration__enter {
+	border-right:1px solid $white;
+}
 .header-top__navi {
 	float: left;
+	margin-left: 18px;
+	border: 1px solid #c1c8cb;
+	border-radius: 15px;
 }
 
 .header-top {
 	@extend %clearfix;
 	line-height: 26px;
+	padding-top: 12px;
 }
 
 .head-top__img {
 	display: inline-block;
+	padding-left: 8px;
+	padding-right: 3px;
 }
 
+.head-top__img--second {
+	padding-left: 1px;
+}
+
+.header-top__img--third {
+	padding-right: 8px;
+}
