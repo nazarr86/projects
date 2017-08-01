@@ -402,7 +402,7 @@ template {
 [hidden] {
   display: none; }
 
-.header-top:after {
+.header-top:after, .nav:after {
   content: "";
   display: block;
   clear: both; }
@@ -451,7 +451,7 @@ img {
   background: url("../image/telephone__icon.png") no-repeat left center;
   padding-left: 27px;
   padding-right: 15px;
-  margin-left: 8px; }
+  margin-left: 6px; }
 
 .header-top__contacts {
   float: left; }
@@ -481,7 +481,7 @@ img {
   margin-left: 6px; }
 
 .registration__login, .registration__pass {
-  width: 111px;
+  width: 109px;
   font-size: 11px;
   font-family: "Lucida Sans", sans-serif;
   color: #97a2a6; }
@@ -517,7 +517,8 @@ img {
   float: left;
   margin-left: 18px;
   border: 1px solid #c1c8cb;
-  border-radius: 15px; }
+  border-radius: 15px;
+  line-height: 1.4; }
 
 .header-top {
   line-height: 26px;
@@ -532,4 +533,54 @@ img {
   padding-left: 1px; }
 
 .header-top__img--third {
-  padding-right: 8px; }
+  padding-right: 13px;
+  padding-left: 0px; }
+
+.header-bottom {
+  padding-top: 8px; }
+
+.main-nav {
+  float: left;
+  padding-left: 115px; }
+
+.main-nav__item {
+  display: inline-block;
+  padding: 0 15px; }
+
+.basket {
+  float: right; }
+
+.nav {
+  background: #6b7279;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #6b7279 0%, #020202 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6b7279 0%, #020202 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6b7279 0%, #020202 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  border: 1px solid #0d1642;
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  height: 30px;
+  margin-top: 5px; }
+
+.basket__goods, .basket__price {
+  display: inline-block;
+  line-height: 30px; }
+
+.main-nav__link {
+  font-size: 15px;
+  font-family: 'Lucida Sans', Tahoma, sans-serif;
+  color: #b1bcc0;
+  line-height: 30px;
+  padding: 4px 19px;
+  text-transform: uppercase; }
+  .main-nav__link:hover {
+    background-image: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
+    background-image: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
+    background-image: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
+    border-radius: 15px;
+    padding: 4px 19px; }
