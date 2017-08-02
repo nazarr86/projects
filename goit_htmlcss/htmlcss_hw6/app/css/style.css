@@ -541,14 +541,16 @@ img {
 
 .main-nav {
   float: left;
-  padding-left: 115px; }
+  padding-left: 125px; }
 
 .main-nav__item {
-  display: inline-block;
-  padding: 0 15px; }
+  display: inline-block; }
 
 .basket {
-  float: right; }
+  float: right;
+  background: url("../image/basket__icon.png") no-repeat left center;
+  padding-left: 25px;
+  margin-right: 12px; }
 
 .nav {
   background: #6b7279;
@@ -564,23 +566,71 @@ img {
   -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.75);
   border-radius: 5px;
-  height: 30px;
+  height: 33px;
   margin-top: 5px; }
 
 .basket__goods, .basket__price {
   display: inline-block;
-  line-height: 30px; }
+  line-height: 33px; }
 
 .main-nav__link {
-  font-size: 15px;
+  font-size: 13.5px;
   font-family: 'Lucida Sans', Tahoma, sans-serif;
   color: #b1bcc0;
-  line-height: 30px;
-  padding: 4px 19px;
+  line-height: 33px;
+  padding: 4px 20px 4px 21px;
   text-transform: uppercase; }
   .main-nav__link:hover {
     background-image: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
     background-image: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
     background-image: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0f3a5e 85%, #0c3256 100%);
     border-radius: 15px;
-    padding: 4px 19px; }
+    padding: 4px 20px 4px 21px; }
+
+.main-nav__link--padding-second {
+  padding-left: 12px;
+  padding-right: 12px; }
+  .main-nav__link--padding-second:hover {
+    padding-left: 12px;
+    padding-right: 12px; }
+
+.main-nav__link--padding-third {
+  padding-left: 12px;
+  padding-right: 12px; }
+  .main-nav__link--padding-third:hover {
+    padding-left: 12px;
+    padding-right: 12px; }
+
+.main-nav__link--padding-four {
+  padding-left: 15px;
+  padding-right: 12px; }
+  .main-nav__link--padding-four:hover {
+    padding-left: 15px;
+    padding-right: 12px; }
+
+.main-nav__link--padding-fifth {
+  padding-left: 12px;
+  padding-right: 12px; }
+  .main-nav__link--padding-fifth:hover {
+    padding-left: 12px;
+    padding-right: 12px; }
+
+.basket__goods-text, .basket__price-text {
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+  color: #929b9f;
+  letter-spacing: 0.5px; }
+
+.basket__goods-number, .basket__price-sum {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  text-transform: lowercase;
+  color: #0d5a8f;
+  letter-spacing: 0.5px; }
+
+.basket__price-sum {
+  padding-left: 6px; }
+
+.basket__price-text {
+  padding-left: 8px; }
