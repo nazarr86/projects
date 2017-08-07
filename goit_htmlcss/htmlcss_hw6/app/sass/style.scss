@@ -269,3 +269,42 @@ img {
 .basket__price-text {
 	padding-left: 8px;
 }
+
+//-----------------------------------search------------------------------
+
+.search-block {
+	float: left;
+	border: 1px solid black;
+}
+
+.search {
+	@extend %clearfix;
+}
+
+.search-avto {
+	width: 415px;
+	@extend %clearfix;
+}
+
+.search-avto__left, .search-avto__right {
+	float: left;
+}
+
+.search-avto__button {
+	float: right;}
+
+.search-tyre {
+	width: 195px;
+}
+
+.search-trims {
+	width: 268px;
+}
+
+.search-text {
+	font-size: 8px;
+}
+
+.search-label {
+	font-size: 10px;
+}

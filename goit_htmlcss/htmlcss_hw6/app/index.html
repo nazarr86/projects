@@ -60,7 +60,7 @@
 			</div>
 		</nav>
 		<div class="search">
-			<div class="search-avto">
+			<div class="search-avto search-block">
 				<div class="search-avto__header">
 					<span class="search-avto__tyre">Диски:</span>
 					<span class="search-avto__avto">Поиск по автомобилю</span>
@@ -69,7 +69,7 @@
 				<div class="search-avto__left">
 					<form action="" class="form-avto__left">
 						<div class="form-avto__marka">
-							<label for="" class="form-avto__marka-label">Марка <span class="form-avto__text">авто</span></label>
+							<label for="" class="form-avto__marka-label search-label">Марка <span class="form-avto__text search-text">авто</span></label>
 							<select class="form-avto__marka-input">
 								<option value="marka_avto1">BMW</option>
 								<option value="marka_avto2">Toyota</option>
@@ -77,7 +77,7 @@
 							</select>
 						</div>
 						<div class="form-avto__model">
-							<label for="" class="form-avto__model-label">Модель <span class="form-avto__text">автомобиля</span></label>
+							<label for="" class="form-avto__model-label search-label">Модель <span class="form-avto__text search-text">автомобиля</span></label>
 							<select class="form-avto__model-input">
 								<option value="model_avto1">X1</option>
 								<option value="model_avto2">X3</option>
@@ -85,7 +85,7 @@
 							</select>
 						</div>
 						<div class="form-avto__year">
-							<label for="" class="form-avto__year-label">Год выпуска <span class="form-avto__text">автомобиля</span></label>
+							<label for="" class="form-avto__year-label search-label">Год выпуска <span class="form-avto__text search-text">автомобиля</span></label>
 							<select class="form-avto__year-input">
 								<option value="year_avto1">2005</option>
 								<option value="year_avto2">2007</option>
@@ -93,7 +93,7 @@
 							</select>
 						</div>
 						<div class="form-avto__complect">
-							<label for="" class="form-avto__complect-label">Комплектация</label>
+							<label for="" class="form-avto__complect-label search-label">Комплектация</label>
 							<select class="form-avto__complect-input">
 								<option value="complect_avto1">Полная</option>
 								<option value="complect_avto2">Частичная</option>
@@ -105,7 +105,7 @@
 				<div class="search-avto__right">
 					<form action="" class="form-avto__right">
 						<div class="form-avto__marka">
-							<label for="" class="form-avto__marka-label">Марка <span class="form-avto__text">авто</span></label>
+							<label for="" class="form-avto__marka-label search-label">Марка <span class="form-avto__text search-text">авто</span></label>
 							<select class="form-avto__marka-input">
 								<option value="marka_avto1">BMW</option>
 								<option value="marka_avto2">Toyota</option>
@@ -113,7 +113,7 @@
 							</select>
 						</div>
 						<div class="form-avto__model">
-							<label for="" class="form-avto__model-label">Модель <span class="form-avto__text">автомобиля</span></label>
+							<label for="" class="form-avto__model-label search-label">Модель <span class="form-avto__text search-text">автомобиля</span></label>
 							<select class="form-avto__model-input">
 								<option value="model_avto1">X1</option>
 								<option value="model_avto2">X3</option>
@@ -121,7 +121,7 @@
 							</select>
 						</div>
 						<div class="form-avto__year">
-							<label for="" class="form-avto__year-label">Год выпуска <span class="form-avto__text">автомобиля</span></label>
+							<label for="" class="form-avto__year-label search-label">Год выпуска <span class="form-avto__text search-text">автомобиля</span></label>
 							<select class="form-avto__year-input">
 								<option value="year_avto1">2005</option>
 								<option value="year_avto2">2007</option>
@@ -129,7 +129,7 @@
 							</select>
 						</div>
 						<div class="form-avto__complect">
-							<label for="" class="form-avto__complect-label">Комплектация</label>
+							<label for="" class="form-avto__complect-label search-label">Комплектация</label>
 							<select class="form-avto__complect-input">
 								<option value="complect_avto1">Полная</option>
 								<option value="complect_avto2">Частичная</option>
@@ -140,10 +140,90 @@
 				</div>
 				<div class="search-avto__button search__button">поиск...</div>
 			</div>
-			<div class="search-tyre">
-
+			<div class="search-tyre search-block">
+				<div class="search-tyre__header">поиск шин</div>
+				<form action="" class="form-tyre">
+					<div class="form-tyre__size">
+						<label for="" class="form-tyre__size-label search-label">Размер <span class="form-tyre__text"></span></label>
+						<select class="form-tyre__size-old-input">
+							<option value="size-old1">145</option>
+							<option value="size_old2">180</option>
+							<option value="size_old3">205</option>
+						</select>
+						<span class="form-tyre__size-slesh">/</span>
+						<select class="form-tyre__size-new-input">
+							<option value="size-new1">50</option>
+							<option value="size_new2">55</option>
+							<option value="size_new3">60</option>
+						</select>
+					</div>
+					<div class="form-tyre__radius">
+						<label for="" class="form-tyre__radius-label search-label">R <span class="form-tyre__text"></span></label>
+						<select class="form-tyre__radius-input">
+							<option value="radius1">12</option>
+							<option value="radius2">13</option>
+							<option value="radius3">14</option>
+						</select>
+					</div>
+					<div class="form-tyre__season">
+						<label for="" class="form-tyre__season-label search-label">Сезон <span class="form-tyre__text"></span></label>
+						<label for="winter"><input type="checkbox" name="winter" id="winter" />зима</label><br />
+						<label for="summer"><input type="checkbox" name="summer" id="summer" />лето</label><br />
+						<label for="all-weather"><input type="checkbox" name="all-weather" id="all-weather" />всесезон</label>
+					</div>
+				</form>
+				<div class="search-tyre__button search__button">поиск...</div>
 			</div>
-			<div class="search-trims"></div>
+			<div class="search-trims search-block">
+				<form action="" class="form-trims">
+					<div class="form-trims__left">
+						<div class="form-trims__header">поиск дисков</div>
+						<div class="form-trims__diametr">
+							<label for="" class="form-trims__diametr-label">Диаметр <span class="form-avto__text">диска</span></label>
+							<select class="form-trims__diametr-input">
+								<option value="trims_diametr1">13</option>
+								<option value="trims_diametr2">14</option>
+								<option value="trims_diametr3">15</option>
+							</select>
+						</div>
+						<div class="form-trims__number">
+							<label for="" class="form-trims__number-label">Количество <span class="form-avto__text">крепежных отверстий</span></label>
+							<select class="form-trims__number-input">
+								<option value="trims_number1">3</option>
+								<option value="trims_number2">4</option>
+								<option value="trims_number3">5</option>
+							</select>
+						</div>
+						<div class="form-trims__diametr-holes">
+							<label for="" class="form-trims__diametr-holes-label">Диаметр <span class="form-avto__text">расположения крепежных отверстий</span></label>
+							<select class="form-trims__diametr-holes-input">
+								<option value="trims_diametr-holes1">12</option>
+								<option value="trims_diametr-holes2">13</option>
+								<option value="trims_diametr-holes3">14</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-trims__right">
+						<div class="form-trims__dco">
+							<label for="" class="form-trims__dco-label">ДЦО <span class="form-avto__text">(диаметр центрального отверстия)</span></label>
+							<select class="form-trims__dco-input">
+								<option value="trims_dco1">12</option>
+								<option value="trims_dco2">13</option>
+								<option value="trims_dco3">14</option>
+							</select>
+						</div>
+						<div class="form-trims__et">
+							<label for="" class="form-trims__et-label">ЕТ <span class="form-avto__text">(вылет диска)</span></label>
+							<select class="form-trims__et-input">
+								<option value="trims_et1">12</option>
+								<option value="trims_et2">13</option>
+								<option value="trims_et3">14</option>
+							</select>
+						</div>
+					</div>
+				</form>
+				<div class="search-tyre__button search__button">поиск...</div>
+			</div>
 		</div>
 	</div>
 	
