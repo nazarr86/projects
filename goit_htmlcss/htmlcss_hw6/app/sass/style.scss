@@ -274,15 +274,22 @@ img {
 
 .search-block {
 	float: left;
-	border: 1px solid black;
+	border: 1px solid #b6b6b7;
+	border-radius: 22px;
 }
 
 .search {
 	@extend %clearfix;
+	padding-top: 11px;
+	margin-left: 4px;
+}
+
+select {
+	font-size: 11px;
 }
 
 .search-avto {
-	width: 415px;
+	width: 414px;
 	@extend %clearfix;
 }
 
@@ -294,11 +301,13 @@ img {
 	float: right;}
 
 .search-tyre {
-	width: 195px;
+	width: 192px;
+	margin-left: 13px;
 }
 
 .search-trims {
-	width: 268px;
+	width: 266px;
+	margin-left: 10px;
 }
 
 .search-text {
@@ -307,4 +316,145 @@ img {
 
 .search-label {
 	font-size: 10px;
+	width: 72px;
+	display: inline-block;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.search-select-1 {
+	width: 102px;
+}
+
+.search-select-2 {
+	width: 58px;
+}
+
+//.search-row {
+//	margin-bottom: 5px;
+//}
+
+.search-avto__left {
+	padding-left: 18px;
+	padding-right: 27px;
+}
+
+.search-avto__tyre, .search-avto__trims {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-weight: 900;
+	color: #154468;
+	padding-left: 21px;
+}
+
+.search-header {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	color: #154468;
+}
+
+.search-avto__avto {
+	padding-left: 62px;
+	padding-right: 45px;
+	letter-spacing: 0.4px;
+}
+
+.search-avto__header {
+	padding-bottom: 1px;
+}
+
+.form-avto__marka-input--padding {
+	padding-top: -2px;
+}
+
+.form-avto__model {
+	padding-top: 3px;
+}
+
+.search-avto__right {
+	margin-top:-3px;
+}
+
+.form-avto__year {
+	padding-top: 2px;
+}
+
+.form-avto__model-text, .form-avto__year-text {
+	letter-spacing: 0.5px;
+}
+
+.form-avto__complect {
+	padding-top: 2px;
+}
+
+.form-avto__complect-label {
+	letter-spacing: 0.1px;
+}
+
+.search-avto__button {
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-right: 22px;
+}
+
+.search-avto__link {
+	font-style: italic;
+	color: #154468;
+	font-family: Arial, sans-serif;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.form-tyre {
+	margin-top: 4px;
+}
+.search-tyre__header {
+	padding-left: 10px;
+}
+
+.search-select-3 {
+	width: 52px;
+}
+
+.search-label-2 {
+	font-size: 10px;
+	width: 53px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: sub;
+}
+
+.form-tyre__radius {
+	margin-top: 2px;
+}
+
+.form-tyre__radius-input {
+	width: 45px;
+}
+
+.form-tyre__radius-label {
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+}
+
+.form-tyre__season-label {
+	font-size: 10px;
+	padding-left: 14px;
+}
+
+.form-tyre__season-checkbox-2 {
+	margin-left: 58px;
+	font-size: 12px;
+}
+
+#summer {
+	margin-left: 8px;
+}
+
+input[type=checkbox] {
+	font-size: 11px;
+	width: 10px;
+	height: 10px;
 }
