@@ -138,7 +138,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="search-avto__button search__button">
+				<div class="search-avto__button">
 					<a href="" class="search-avto__link">поиск...</a>
 				</div>
 			</div>
@@ -181,31 +181,33 @@
 						</div>
 					</div>
 				</form>
-				<div class="search-tyre__button search__button">поиск...</div>
+				<div class="search-tyre__button search__button">
+					<a href="" class="search-link">поиск...</a>
+				</div>
 			</div>
 			<div class="search-trims search-block">
 				<form action="" class="form-trims">
+					<div class="form-trims__header search-header">поиск дисков</div>
 					<div class="form-trims__left">
-						<div class="form-trims__header search-header">поиск дисков</div>
 						<div class="form-trims__diametr search-row">
-							<label for="" class="form-trims__diametr-label search-label">Диаметр <span class="form-avto__text search-text">диска:</span></label>
-							<select class="form-trims__diametr-input">
+							<label for="" class="form-trims__diametr-label search-label">Диаметр <span class=" form-trims__text search-text">диска:</span></label>
+							<select class="form-trims__diametr-input search-select-2">
 								<option value="trims_diametr1">13</option>
 								<option value="trims_diametr2">14</option>
 								<option value="trims_diametr3">15</option>
 							</select>
 						</div>
 						<div class="form-trims__number search-row">
-							<label for="" class="form-trims__number-label search-label">Количество <span class="form-avto__text search-text">крепежных отверстий:</span></label>
-							<select class="form-trims__number-input">
+							<label for="" class="form-trims__number-label search-label">Количество <span class=" form-trims__text search-text">крепежных отверстий:</span></label>
+							<select class="form-trims__number-input search-select-5">
 								<option value="trims_number1">3</option>
 								<option value="trims_number2">4</option>
 								<option value="trims_number3">5</option>
 							</select>
 						</div>
 						<div class="form-trims__diametr-holes search-row">
-							<label for="" class="form-trims__diametr-holes-label search-label">Диаметр <span class="form-avto__text search-text">расположения крепежных отверстий:</span></label>
-							<select class="form-trims__diametr-holes-input">
+							<label for="" class="form-trims__diametr-holes-label search-label">Диаметр <span class=" form-trims__text search-text">расположения крепежных отверстий:</span></label>
+							<select class="form-trims__diametr-holes-input search-select-2">
 								<option value="trims_diametr-holes1">12</option>
 								<option value="trims_diametr-holes2">13</option>
 								<option value="trims_diametr-holes3">14</option>
@@ -214,16 +216,16 @@
 					</div>
 					<div class="form-trims__right">
 						<div class="form-trims__dco search-row">
-							<label for="" class="form-trims__dco-label search-label">ДЦО <span class="form-avto__text search-text">(диаметр центрального отверстия):</span></label>
-							<select class="form-trims__dco-input">
+							<label for="" class="form-trims__dco-label search-label form-trims__dco-text">ДЦО <span class="search-text">(диаметр центрального отверстия):</span></label><br>
+							<select class="form-trims__dco-input search-select-2">
 								<option value="trims_dco1">12</option>
 								<option value="trims_dco2">13</option>
 								<option value="trims_dco3">14</option>
 							</select>
 						</div>
 						<div class="form-trims__et search-row">
-							<label for="" class="form-trims__et-label search-label">ЕТ <span class="form-avto__text search-text">(вылет диска):</span></label>
-							<select class="form-trims__et-input">
+							<label for="" class="form-trims__et-label search-label form-trims__dco-text">ЕТ <span class="form-avto__text search-text">(вылет диска):</span></label><br>
+							<select class="form-trims__et-input search-select-2">
 								<option value="trims_et1">12</option>
 								<option value="trims_et2">13</option>
 								<option value="trims_et3">14</option>
@@ -231,10 +233,212 @@
 						</div>
 					</div>
 				</form>
-				<div class="search-tyre__button search__button">поиск...</div>
+				<div class="search-tyre__button search__button">
+					<a href="" class="search-link">поиск...</a>
+				</div>
 			</div>
 		</div>
+
+		<div class="main-content">
+			<aside class="sidebar-left">
+				<div class="catalog">
+					<div class="catalog__header">каталог продукции:</div>
+					<div class="catalog-tyre">
+						<div class="catalog-tyre__header sidebar__headers">шины</div>
+						<ul class="catalog-tyre__list catalog__list">
+							<li class="catalog-tyre__item catalog__item"><a href="#" class="catalog-tyre__link catalog__link">Наименование 1</a></li>
+							<li class="catalog-tyre__item catalog__item"><a href="#" class="catalog-tyre__link catalog__link">Наименование 2</a></li>
+							<li class="catalog-tyre__item catalog__item"><a href="#" class="catalog-tyre__link catalog__link">Наименование 3</a></li>
+							<li class="catalog-tyre__item catalog__item"><a href="#" class="catalog-tyre__link catalog__link">Наименование 4</a></li>
+						</ul>
+					</div>
+					<div class="catalog-trims">
+						<div class="catalog-trims__header sidebar__headers">диски</div>
+						<ul class="catalog-trims__list catalog__list">
+							<li class="catalog-trims__item catalog__item"><a href="#" class="catalog-trims__link catalog__link">Наименование 1</a></li>
+							<li class="catalog-trims__item catalog__item"><a href="#" class="catalog-trims__link catalog__link">Наименование 2</a></li>
+							<li class="catalog-trims__item catalog__item"><a href="#" class="catalog-trims__link catalog__link">Наименование 3</a></li>
+							<li class="catalog-trims__item catalog__item"><a href="#" class="catalog-trims__link catalog__link">Наименование 4</a></li>
+						</ul>
+					</div>
+					<div class="catalog-screw">
+						<div class="catalog-screw__header sidebar__headers">болты</div>
+						<ul class="catalog-screw__list catalog__list">
+							<li class="catalog-screw__item catalog__item"><a href="#" class="catalog-screw__link catalog__link">Наименование 1</a></li>
+							<li class="catalog-screw__item catalog__item"><a href="#" class="catalog-screw__link catalog__link">Наименование 2</a></li>
+							<li class="catalog-screw__item catalog__item"><a href="#" class="catalog-screw__link catalog__link">Наименование 3</a></li>
+							<li class="catalog-screw__item catalog__item"><a href="#" class="catalog-screw__link catalog__link">Наименование 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</aside>
+			<main class="goods">
+				<div class="cart-good">
+					<div class="cart-good__marka">Goodyear</div>
+					<div class="cart-good__model">Ultra Grip Extreme</div>
+					<div class="cart-good__pic"><img src="image/tyre1__img.png" alt="Ultra Grip Extreme" class="cart-good__image"></div>
+					<div class="cart-good__price">90.00 грн.</div>
+				</div>
+				<div class="cart-good cart-good__middle">
+					<div class="cart-good__marka">Nokian</div>
+					<div class="cart-good__model">Hakkapeliitta R</div>
+					<div class="cart-good__pic"><img src="image/tyre2__img.png" alt="Hakkapeliitta R" class="cart-good__image"></div>
+					<div class="cart-good__price">115.00 грн.</div>
+				</div>
+				<div class="cart-good">
+					<div class="cart-good__marka">Hankook</div>
+					<div class="cart-good__model">K 708 155/65 R14 </div>
+					<div class="cart-good__pic"><img src="image/tyre3__img.png" alt="K 708 155/65 R14" class="cart-good__image"></div>
+					<div class="cart-good__price">393.00 грн.</div>
+				</div>
+				<div class="cart-good">
+					<div class="cart-good__marka">Goodyear</div>
+					<div class="cart-good__model">Ultra Grip Extreme</div>
+					<div class="cart-good__pic"><img src="image/tyre1__img.png" alt="Ultra Grip Extreme" class="cart-good__image"></div>
+					<div class="cart-good__price">90.00 грн.</div>
+				</div>
+				<div class="cart-good cart-good__middle">
+					<div class="cart-good__marka">Nokian</div>
+					<div class="cart-good__model">Hakkapeliitta R</div>
+					<div class="cart-good__pic"><img src="image/tyre2__img.png" alt="Hakkapeliitta R" class="cart-good__image"></div>
+					<div class="cart-good__price">115.00 грн.</div>
+				</div>
+				<div class="cart-good">
+					<div class="cart-good__marka">Hankook</div>
+					<div class="cart-good__model">K 708 155/65 R14 </div>
+					<div class="cart-good__pic"><img src="image/tyre3__img.png" alt="K 708 155/65 R14" class="cart-good__image"></div>
+					<div class="cart-good__price">393.00 грн.</div>
+				</div>
+				<div class="cart-good">
+					<div class="cart-good__marka">Goodyear</div>
+					<div class="cart-good__model">Ultra Grip Extreme</div>
+					<div class="cart-good__pic"><img src="image/tyre1__img.png" alt="Ultra Grip Extreme" class="cart-good__image"></div>
+					<div class="cart-good__price">90.00 грн.</div>
+				</div>
+				<div class="cart-good cart-good__middle">
+					<div class="cart-good__marka">Nokian</div>
+					<div class="cart-good__model">Hakkapeliitta R</div>
+					<div class="cart-good__pic"><img src="image/tyre2__img.png" alt="Hakkapeliitta R" class="cart-good__image"></div>
+					<div class="cart-good__price">115.00 грн.</div>
+				</div>
+				<div class="cart-good">
+					<div class="cart-good__marka">Hankook</div>
+					<div class="cart-good__model">K 708 155/65 R14 </div>
+					<div class="cart-good__pic"><img src="image/tyre3__img.png" alt="K 708 155/65 R14" class="cart-good__image"></div>
+					<div class="cart-good__price">393.00 грн.</div>
+				</div>
+			</main>
+			<aside class="sidebar-right">
+				<div class="brends">
+					<div class="brends__header">бренды:</div>
+					<form action="" class="brends__form">
+						<div class="brends-tyre">
+							<div class="brends-tyre__header sidebar__headers">шины</div>
+							<div class="brends-tyre__elem">
+								<label for="" class="brends-tyre__label">
+									<input type="checkbox" class="brends-tyre__checkbox">Бренд 1
+								</label>
+							</div>
+							<div class="brends-tyre__elem">
+								<label for="" class="brends-tyre__label">
+									<input type="checkbox" class="brends-tyre__checkbox">Бренд 2
+								</label>
+							</div>
+							<div class="brends-tyre__elem">
+								<label for="" class="brends-tyre__label">
+									<input type="checkbox" class="brends-tyre__checkbox">Бренд 3
+								</label>
+							</div>
+						</div>
+						<div class="brends-trims">
+							<div class="brends-trims__header sidebar__headers">диски</div>
+							<div class="brends-trims__elem">
+								<label for="" class="brends-trims__label">
+									<input type="checkbox" class="brends-trims__checkbox">Бренд 1
+								</label>
+							</div>
+							<div class="brends-trims__elem">
+								<label for="" class="brends-trims__label">
+									<input type="checkbox" class="brends-trims__checkbox">Бренд 2
+								</label>
+							</div>
+							<div class="brends-trims__elem">
+								<label for="" class="brends-trims__label">
+									<input type="checkbox" class="brends-trims__checkbox">Бренд 3
+								</label>
+							</div>
+						</div>
+						<button class="brends-btn">выбрать</button>
+					</form>
+				</div>
+			</aside>
+		</div>
+        <div class="partners">
+            <ul class="partners__list">
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-1.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-2.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-3.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-4.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-5.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-6.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-7.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+                <li class="partners__item">
+                    <a href="" class="partners__link">
+                        <img src="image/brend__logo-8.png" alt="Partners logo" class="partners__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
 	</div>
+	<footer class="footer">
+		<div class="footer-nav">
+			<ul class="footer-nav__list">
+				<li class="footer-nav__item">
+					<a href="#" class="footer-nav__link">О компании</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="#" class="footer-nav__link">Доставка</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="#" class="footer-nav__link">Статьи</a>
+				</li>
+				<li class="footer-nav__item">
+					<a href="#" class="footer-nav__link">Контакты</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-copyright">
+			Создание сайта © Global Vision
+		</div>
+	</footer>
 	
 	<!--build:js js/main.min.js -->
 	<script src="js/lib/lib1.js"></script>
